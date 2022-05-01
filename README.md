@@ -19,12 +19,13 @@ Additionally I perform Principle Component Analysis and K means Clustering as un
 * Data Visualization
 * Predictive Modeling
 
-### Tech Used
-* Python
+### Technology Used
+* python
 * sklearn
 * seaborn
 * pandas
 * numpy
+* Jupyter Lab
 
 ## Files
 * aw_fb_data.csv (Data for analysis from Kaggle.com)
