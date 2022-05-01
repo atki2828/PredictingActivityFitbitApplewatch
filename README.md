@@ -10,7 +10,7 @@ Additionally I perform Principle Component Analysis and K means Clustering as un
 
 ### Methods Used
 * Inferential Statistics
-* Unsupervised Learning Analysis PCA and K-Means Clustering
+* Unsupervised Learning PCA and K-Means Clustering
 * Ensemble Learners (Stochastic Gradient Boosting and Random Forests)
 * Naive Bayes
 * K Nearest Neighbors
