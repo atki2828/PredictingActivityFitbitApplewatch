@@ -74,16 +74,16 @@ class ClassifierPipeLine:
     def create_grid_search(
         self, param_grid: Dict[str, str], cv: int, scoring: str, output: bool = False
     ) -> Union[GridSearchCV, None]:
-        """will create a grid search object given params
+        """Create gridsearch with cross validation
 
         Args:
-            param_grid (_type_): _description_
-            cv (_type_): _description_
-            scoring (_type_): _description_
-            output (bool, optional): _description_. Defaults to False.
+            param_grid (Dict[str, str]): Parameters for the grid search with the format clf__<param>
+            cv (int): number of folds for k fold cv
+            scoring (str): scoring measure of fiit
+            output (bool, optional): if function should return grid search Defaults to False.
 
         Returns:
-            _type_: _description_
+            Union[GridSearchCV, None]: _description_
         """
         model_obj = (
             self.pipeline if self.pipeline else self.create_pipeline(output=True)
